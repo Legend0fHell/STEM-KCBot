@@ -1,5 +1,6 @@
 # STEM-KCBot
-Cute codes for a cute car
+- Code cho xe sử dụng mạch EasyCode (Arduino Uno)
+- Code chiến thắng toàn bộ cuộc thi liên quan đến xe dò line, xe tự hành tại tỉnh Yên Bái từ 2021-2023.
 
 ## Cài Môi trường Code
 - B1: Cài [Arduino v2](https://downloads.arduino.cc/arduino-ide/arduino-ide_2.0.4_Windows_64bit.exe).
