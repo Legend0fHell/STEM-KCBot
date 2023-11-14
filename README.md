@@ -2,12 +2,21 @@
 - Code cho xe sử dụng mạch EasyCode (Arduino Uno)
 - Code chiến thắng toàn bộ cuộc thi liên quan đến xe dò line, xe tự hành tại tỉnh Yên Bái từ 2021-2023.
 
+## Tải code
+- B1: Nhấn `Code` ở phía trên, chọn `Download ZIP`.
+- B2: Giải nén file `.zip` mới được tải về. Toàn bộ code, thư viện, tài liệu sẽ nằm trong file đó.
+
 ## Cài Môi trường Code
-- B1: Cài [Arduino v2](https://downloads.arduino.cc/arduino-ide/arduino-ide_2.0.4_Windows_64bit.exe).
-- B2: Cài [Easycode](https://drive.google.com/drive/u/1/folders/1xCd9tZ0VadZD4rjVmXd_SSLT3-WnPcSv).
-- B3: Mở Easycode, chọn chế độ code C++, vào menu Cài đặt/Cài Driver cho Arduino.
-- B4: Copy folder libraries vào Documents/Arduino trên máy của bạn.
-- B5: Kết nối xe với máy tính, đặt cổng COM, chuyển board thành Arduino Uno.
+- B1: Cài Arduino tại link sau: [Arduino v2](https://downloads.arduino.cc/arduino-ide/arduino-ide_2.0.4_Windows_64bit.exe).
+- B2: Cài thư viện cho board:
+  - Vào Arduino, menu `Tools/Board/Boards Manager`.
+  - Cài đặt (Install) mục `Arduino AVR Boards` trong mục `Boards Manager` ở cạnh trái (hoặc phải).
+  - Kiểm tra xem có bị lỗi `Missing FBQN` không: [Link](https://support.arduino.cc/hc/en-us/articles/4412950941074-Compilation-error-Missing-FQBN-Fully-Qualified-Board-Name-)
+- B3: Cài Easycode: [Easycode](https://drive.google.com/drive/u/1/folders/1xCd9tZ0VadZD4rjVmXd_SSLT3-WnPcSv).
+- B4: Mở Easycode, chọn chế độ code C++, vào menu `Cài đặt/Cài Driver` cho Arduino.
+- B5: Copy folder tên `libraries` ở file `zip` vào thư mục `Documents/Arduino` trên máy của bạn.
+![image](https://github.com/Legend0fHell/STEM-KCBot/assets/56226847/931caa09-3865-407a-b2a8-72c498a30c12)
+- B6: Kết nối xe với máy tính, đặt cổng COM, chuyển board thành Arduino Uno.
 
 ## Giải thích
 - `v1, v2`: Phiên bản
